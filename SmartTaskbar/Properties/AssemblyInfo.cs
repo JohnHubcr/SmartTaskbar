@@ -1,6 +1,8 @@
 ﻿using System.Reflection;
+using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Windows;
 
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
@@ -8,9 +10,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SmartTaskbar")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Chanple")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SmartTaskbar")]
-[assembly: AssemblyCopyright("Copyright ©  2018 Chanple Cai")]
+[assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -19,8 +21,25 @@ using System.Runtime.InteropServices;
 //请将此类型的 ComVisible 特性设置为 true。
 [assembly: ComVisible(false)]
 
-// 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("59ae9ba6-47c4-4671-8a58-6eb87a9674d3")]
+//若要开始生成可本地化的应用程序，请设置
+//.csproj 文件中的 <UICulture>CultureYouAreCodingWith</UICulture>
+//例如，如果您在源文件中使用的是美国英语，
+//使用的是美国英语，请将 <UICulture> 设置为 en-US。  然后取消
+//对以下 NeutralResourceLanguage 特性的注释。  更新
+//以下行中的“en-US”以匹配项目文件中的 UICulture 设置。
+
+//[assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)]
+
+
+[assembly: ThemeInfo(
+    ResourceDictionaryLocation.None, //主题特定资源词典所处位置
+                                     //(未在页面中找到资源时使用，
+                                     //或应用程序资源字典中找到时使用)
+    ResourceDictionaryLocation.SourceAssembly //常规资源词典所处位置
+                                              //(未在页面中找到资源时使用，
+                                              //、应用程序或任何主题专用资源字典中找到时使用)
+)]
+
 
 // 程序集的版本信息由下列四个值组成: 
 //
@@ -32,5 +51,5 @@ using System.Runtime.InteropServices;
 // 可以指定所有值，也可以使用以下所示的 "*" 预置版本号和修订号
 // 方法是按如下所示使用“*”: :
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.9.0")]
-[assembly: AssemblyFileVersion("1.1.9.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

@@ -1,52 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTaskbar", "SmartTaskbar\SmartTaskbar.csproj", "{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}"
-	ProjectSection(ProjectDependencies) = postProject
-		{0A397213-C006-45F8-8150-109F616B2BF3} = {0A397213-C006-45F8-8150-109F616B2BF3}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTaskbar", "SmartTaskbar\SmartTaskbar.csproj", "{887B1841-BC8B-403B-9D66-EC966F70EEA4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskbarNotifier", "TaskbarNotifier\TaskbarNotifier.vcxproj", "{0A397213-C006-45F8-8150-109F616B2BF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTaskbar.Core", "SmartTaskbar.Core\SmartTaskbar.Core.csproj", "{1675305E-D054-4367-A1D2-BB7A1AF4F00C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTaskbar.Infrastructure", "SmartTaskbar.Infrastructure\SmartTaskbar.Infrastructure.csproj", "{4BCD91D9-7853-4DA1-9CCB-D713D52D0322}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}.Debug|x64.Build.0 = Debug|Any CPU
-		{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}.Debug|x86.Build.0 = Debug|Any CPU
-		{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}.Release|x64.ActiveCfg = Release|Any CPU
-		{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}.Release|x64.Build.0 = Release|Any CPU
-		{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}.Release|x86.ActiveCfg = Release|Any CPU
-		{59AE9BA6-47C4-4671-8A58-6EB87A9674D3}.Release|x86.Build.0 = Release|Any CPU
-		{0A397213-C006-45F8-8150-109F616B2BF3}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{0A397213-C006-45F8-8150-109F616B2BF3}.Debug|x64.ActiveCfg = Debug|x64
-		{0A397213-C006-45F8-8150-109F616B2BF3}.Debug|x64.Build.0 = Debug|x64
-		{0A397213-C006-45F8-8150-109F616B2BF3}.Debug|x86.ActiveCfg = Debug|Win32
-		{0A397213-C006-45F8-8150-109F616B2BF3}.Debug|x86.Build.0 = Debug|Win32
-		{0A397213-C006-45F8-8150-109F616B2BF3}.Release|Any CPU.ActiveCfg = Release|Win32
-		{0A397213-C006-45F8-8150-109F616B2BF3}.Release|x64.ActiveCfg = Release|x64
-		{0A397213-C006-45F8-8150-109F616B2BF3}.Release|x64.Build.0 = Release|x64
-		{0A397213-C006-45F8-8150-109F616B2BF3}.Release|x86.ActiveCfg = Release|Win32
-		{0A397213-C006-45F8-8150-109F616B2BF3}.Release|x86.Build.0 = Release|Win32
+		{887B1841-BC8B-403B-9D66-EC966F70EEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887B1841-BC8B-403B-9D66-EC966F70EEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887B1841-BC8B-403B-9D66-EC966F70EEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887B1841-BC8B-403B-9D66-EC966F70EEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1675305E-D054-4367-A1D2-BB7A1AF4F00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1675305E-D054-4367-A1D2-BB7A1AF4F00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1675305E-D054-4367-A1D2-BB7A1AF4F00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1675305E-D054-4367-A1D2-BB7A1AF4F00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCD91D9-7853-4DA1-9CCB-D713D52D0322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCD91D9-7853-4DA1-9CCB-D713D52D0322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCD91D9-7853-4DA1-9CCB-D713D52D0322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCD91D9-7853-4DA1-9CCB-D713D52D0322}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {59939F3C-941E-4A05-8693-3E6E0092BE87}
+		SolutionGuid = {2EDDAE74-D264-418F-BF1A-73D6AA96A165}
 	EndGlobalSection
 EndGlobal
