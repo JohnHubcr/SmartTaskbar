@@ -64,7 +64,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Tray\TaskbarTray.cs" />
-    <Page Include="SettingWindow.xaml">
+    <Page Include="ViewModel\SettingWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -72,7 +72,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="SettingWindow.xaml.cs">
+    <Compile Include="ViewModel\SettingWindow.xaml.cs">
       <DependentUpon>SettingWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
@@ -119,7 +119,6 @@
     <Folder Include="Images\" />
     <Folder Include="Languages\" />
     <Folder Include="Storage\" />
-    <Folder Include="ViewModel\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\logo_32.ico" />
